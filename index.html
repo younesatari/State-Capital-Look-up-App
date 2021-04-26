@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chucknorris Jokes</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+  <style>
+    .list{box-shadow: 0 5px 5px rgba(0, 0, 0, .2)}
+    .lat-long{font-size: .8rem}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center mt-5 mb-5"><i class="fas fa-flag-usa"></i> State Capital Look up</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-6 mx-auto text-white">
+      <div class="box p-3">
+        <input class="form-control mb-4" type="text" id="input" placeholder="Enter state...">
+        <ul class="lists list-unstyled">
+          <!-- <li class="list bg-info p-2">
+            <div class="mb-2"><span id="state">Maine </span>(<span id="abbr">ME</span>) <span class="ml-2" id="capital">Augusta</span></div>
+            <div class="lat-long">Lat: <span id="lat">44.6532</span> / Long: <span id="long">-13.658545</span></div>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
